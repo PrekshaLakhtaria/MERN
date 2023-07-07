@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p id="par1">you pressed confirm</p>
+
+<script>
+    let a = prompt("Enter your age :");
+if (a<=18) {
+    document.getElementById("par1").innerHTML="You are not elligible";
+} 
+else {
+    let b = confirm("Please click confirm to proceed or cancel to stop");
+    if (b == true) {
+        document.getElementById("par1").innerHTML="You have confirmed";
+    } else {
+        document.getElementById("par1").innerHTML="You have cancelled";
+    }
+}
+</script>    
+</body>
+</html>
