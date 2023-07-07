@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfcae1;
+
+}
+
+.outer > div, img{
+    position: absolute;
+}
+
+.outer{
+    position: relative;
+    bottom: 80px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at 20% 106%, #f3d373 4%, #f15245 26%, #d92e7f 50%, #9b36b7 70%, #515ecf 90%);
+    border-radius: 25%;
+}
+
+.inner {
+    top: 30px;
+    left: 30px;
+    height: 210px;
+    width: 210px;
+    border: 15px solid #fff;
+    border-radius: 25%;
+}
+
+.circle{
+    top: 75px;
+    left: 75px;
+    height: 120px;
+    width: 120px;
+    border: 15px solid #fff;
+    border-radius: 50%;
+}
+
+.dot{
+    top: 62px;
+    right: 62px;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+img{
+    top: 300px;
+    height: 180px;
+    width: 300px;
+}

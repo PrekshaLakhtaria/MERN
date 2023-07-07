@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        background-color: #9dbabe;
+    }
+
+    .main div {
+        width: 420px;
+        height: 200px;
+        background-color: #66e0d9;
+        transition: all;
+        transition-duration: 3s;
+        transition-timing-function: ease-in;
+    }
+    
+    .main:hover div {
+        width: 800px;
+    }
+
+    .main div:nth-child(2n) {
+        background-color: #13646b
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="">Div1</div>
+        <div>Div2</div>
+        <div>Div3</div>
+        <div>Div4</div>
+    </div>
+</body>
+
+</html>
