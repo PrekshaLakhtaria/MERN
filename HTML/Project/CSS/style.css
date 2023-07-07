@@ -1,0 +1,332 @@
+
+
+
+
+/* <!-- logo  start --> */
+
+.logo{
+    text-align: left;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #111;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.logo a span{
+    color: rgb(121, 205, 239);
+}
+
+.logo img{
+    height: 60px;
+    width: 80px;
+}
+
+/* <!-- logo  end --> */
+
+
+
+/* <!-- Nav Section Start --> */
+
+ .navBar{
+    
+    background-color: rgba(164, 218, 244, 0.5);
+
+    height: 65px;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+
+.topNav .navItems{
+    text-align: right;
+}
+
+.topNav .navItems a{
+    font-size: x-large;
+    color: rgb(39, 139, 153);
+}
+
+/* <!-- Nav Section Start --> */
+
+
+
+/* Welcome Section Start */
+
+
+table{
+    width: 100%;
+}
+
+.td1{
+    width: 50%;
+    text-align: center;
+}
+
+.td2{
+    width: 50%;
+}
+
+.welcomeRight img{
+    width: 100%;
+    height: 500px;
+}  
+
+.welcomeLeft h1{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.welcomeLeft h1 span{
+    color: rgb(121, 205, 239);
+}
+
+.welcomeLeft p{
+    color: gray;
+    padding-bottom: 7%;
+}
+
+/* Welcome Section End */
+
+
+
+/* <!-- button  start --> */
+
+.indexbtn{
+    background-color: rgb(57, 149, 241);
+    height: 50px;
+    width: 150px;
+    
+}
+
+.indexbtn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* <!-- button  end --> */
+
+
+
+/* About Section Start */
+
+.about-table{
+    background-image: url('../img/shapes/Frame\ 57.jpg');
+    background-size: 100% 600px;
+}
+
+.about-td1{
+    width: 50%;
+    text-align: center;
+}
+
+.about-td2{
+    width: 50%;
+}
+
+.about-p{
+    font-size: 19px;
+}
+
+.aboutLeft img {
+    width: 70%;
+    height: 350px;
+}
+
+.abouthead{
+    font-size: 60px;
+}
+
+.aboutRight{
+    width: 90%;
+}
+
+.aboutRight p{
+    text-align: justify;
+}
+
+.aboutRight p span{
+    color: rgb(121, 205, 239);
+}
+
+/* About Section End */
+ 
+
+
+/* Recipies Section Start */
+
+.div-rec{
+    background-image: url(/img/shapes/recback.jpg);
+    background-size: 100% 100%;
+    height: 85%;
+}
+
+.rec{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(121, 205, 239);;
+}
+
+.rec-td1, .rec-td2,.rec-td3 {
+    text-align: center;
+    border: 3px solid black;
+}
+
+.rec-td1 p, .rec-td2 p,.rec-td3 p{
+    font-size: 20px;
+    color: rgb(19, 109, 200);
+}
+
+
+/* Recipies Section End */
+
+
+
+/* Food Setcion Start */
+
+.pop{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.foods img{
+    height: 280px;
+}
+
+/* Food Setcion End */
+
+
+
+/* footer Start */
+
+.text-center{
+    text-align: center;
+}
+
+section.footer{
+    background-color: rgb(4, 111, 161);
+
+}
+.footer h1 span{
+    color: rgb(121, 205, 239);
+}
+.footer h1{
+    color: black;
+}
+
+.footer h3{
+    color: #fff;
+}
+
+/* footer end */
+
+
+
+/* contact start */
+
+.conbody{
+    text-align: center;
+    background-image: url(/img/shapes/flip.jpg);
+    background-size: 100% 100%;
+}
+
+.conframe1, .conframe2{
+    height: 500px;
+    width: 700px;
+    border:none;
+}
+
+.conimg{
+    height: 480px;
+    width: 100%;
+    text-align: right;
+}
+
+.conhead td{
+    width: 50%;
+}
+
+.contab{
+    font-size: 20px;
+    width: 70%;
+    height: 400px;
+    border: 4px solid rgb(4, 111, 161);
+}
+
+.form-control{
+    font-size: 18px;
+    width: 70%;
+}
+
+.contd1, .contd2{
+    width: 50%;
+}
+
+.contd1{
+    text-align: center;
+}
+
+.contd2{
+    text-align: center;
+}
+
+.conbtn{
+    font-size: 20px;
+    background-color: rgb(57, 149, 241);
+    height: 30px;
+    width: 140px;
+}
+
+.conp1{
+    text-align: left;
+    font-size: 30px;
+    color:grey;
+}
+
+.conp2{
+    text-align: left;
+    font-size: 50px;
+    color:rgb(4, 111, 161);
+}
+
+.conp3{
+    font-size: 20px;
+    text-align: left;
+}
+
+/* contact end */
+
+
+
+/* order start */
+
+.ord{
+    width: 70%;
+    height: 690px;
+    border: 2px solid black;
+}
+.ord img{
+    width: 100%;
+    height: 620px;
+}
+
+.ordtd1, .ordtd2{
+    text-align: center;
+    width: 50%;
+}
+
+.ordform input, .ordform textarea{
+    font-size: 20px;
+}
+
+.field{
+    width: 300px;
+}
+
+/* order end */
